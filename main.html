@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--material icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!--css file-->
+    <link rel="stylesheet" href="styles/index.css" />
+    <title>YouTube Clone with HTML &amp; CSS</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="logo left">
+        <i id="menu" class="material-icons">menu</i>
+        <img src="https://www.freecodecamp.org/news/content/images/2022/01/yt-logo.png">
+      </div>
+
+      <div class="search center">
+        <form action="">
+          <input type="text" placeholder="Search" />
+          <button"><i class="material-icons">search</i></button>
+        </form>
+        <i class="material-icons mic">mic</i>
+      </div>
+
+      <div class="icons right">
+        <i class="material-icons">videocam</i>
+        <i class="material-icons">apps</i>
+        <i class="material-icons">notifications</i>
+        <i class="material-icons display-this">account_circle</i>
+      </div>
+    </header>
+
+    <main>
+      <div class="side-bar">
+        <div class="nav">
+          <a class="nav-link active">
+            <i class="material-icons">home</i>
+            <span style="font-weight: 500;">Home</span>
+          </a>
+          <a class="nav-link">
+            <i class="material-icons">local_fire_department</i>
+            <span>Trending</span>
+          </a>
+          <a class="nav-link">
+            <i class="material-icons">subscriptions</i>
+            <span>Subscriptions</span>
+          </a>
+          <hr>
+        </div>
+        <div class="nav">
+          <a class="nav-link">
+            <i class="material-icons">library_add_check</i>
+            <span>Library</span>
+          </a>
+          <a class="nav-link">
+            <i class="material-icons">history</i>
+            <span>History</span>
+          </a>
+          <a class="nav-link">
+            <i class="material-icons">play_arrow</i>
+            <span>Your Videos</span>
+          </a>
+          <a class="nav-link">
+            <i class="material-icons">watch_later</i>
+            <span>Watch Later</span>
+          </a>
+          <a class="nav-link">
+            <i class="material-icons">thumb_up</i>
+            <span>Liked Videos</span>
+          </a>
+        </div>
+      </div>
+      <div class="content">
+        <div class="tabs">
+          <button style="background-color: rgb(15, 15, 15); color: #f9f9f9;">All</button>
+          <button>Podcasts</button>
+          <button>Data Structures</button>
+          <button>Intelligence</button>
+          <button>Skills</button>
+          <button>Music</button>
+          <button>History</button>
+          <button>Gaming</button>
+          <button>Media Theories</button>
+          <button>Mixes</button>
+          <i class="material-icons" style="vertical-align: middle;">arrow_forward_ios</i>
+        </div>
+        <div class="videos">
+          <!--a video starts-->
+          <div class="video">
+            <div class="thumbnail">
+              <a target="_blank" href="https://www.youtube.com/watch?v=PmtFtWVrxFE">
+                <img src="https://i.ytimg.com/vi/PmtFtWVrxFE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCAcF-2nLHF2s8aH3-sZ7ZJBOweiw" alt="Two men with wanting sign." />
+              </a>
+              </div>
+
+            <div class="details">
+              <div class="author">
+                <a target="_blank" href="https://www.youtube.com/@fern-tv">
+                  <img src="https://yt3.ggpht.com/mAELqtgNIsFmbiP7o5VvogYPacS4qXN9T8fiJbF7xgyNaPBMQjH0RerBsv_LQThlFfJK3lqO0g=s68-c-k-c0x00ffffff-no-rj" alt="" />
+                </a>
+                </div>
+              <div class="title">
+                <a target="_blank" href="https://www.youtube.com/watch?v=PmtFtWVrxFE">
+                  <h3>
+                    The Kids Who Hacked The CIA
+                  </h3>
+                </a>
+                <a href="">
+                  fern &check;
+                </a>
+                <span> 8.1M Views &bull; 6 months ago </span>
+              </div>
+            </div>
+
+          </div>
+        <!--a videos ends-->
+          <!--a video starts-->
+          <div class="video">
+            <div class="thumbnail">
+              <a target="_blank" href="https://www.youtube.com/watch?v=Q7yvvq-9ytE">
+                <img src="https://i.ytimg.com/vi/Q7yvvq-9ytE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCMjHiTwFl2vaJrDDk6v8IYqPghZg" alt="" />
+              </a>
+              </div>
+
+            <div class="details">
+              <div class="author">
+                <a target="_blank" href="https://www.youtube.com/@jubilee">
+                  <img src="https://yt3.ggpht.com/d4B1O0xCl6DJx6h1aZLgLWr4MO5h44f-0JL5qosNoejntdVRoW0OKVk1iLIN_65Ghz1wUF0LeiQ=s68-c-k-c0x00ffffff-no-rj" alt="" />
+                </a>
+              </div>
+              <div class="title">
+                <a target="_blank" href="https://www.youtube.com/watch?v=Q7yvvq-9ytE">
+                  <h3>
+                    Flat Earthers vs. Scientists: Can We Trust Science? | Middle Ground
+                  </h3>
+                </a>
+                <a href="">
+                  Jubilee &check;
+                </a>
+                <span> 28M Views &bull; 4 years ago </span>
+              </div>
+
+            </div>
+
+          </div>
+        <!--a videos ends-->
+          <!--a video starts-->
+          <div class="video">
+            <div class="thumbnail">
+              <a target="_blank" href="https://www.youtube.com/watch?v=fkIvmfqX-t0">
+                <img src="https://i.ytimg.com/vi/fkIvmfqX-t0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAJIPfApDmslhuwV-3TledWT-JLYQ" alt="" />
+              </a>
+              </div>
+
+            <div class="details">
+              <div class="author">
+                <a target="_blank" href="https://www.youtube.com/@WIRED">
+                  <img src="https://yt3.ggpht.com/8Xk2ooxiEdQvOOLucacv-q-hiHtSEZmNzNLefrG_Rx8gNG-oAovRbWG3_qAhqffTPqdcKtgMxA=s68-c-k-c0x00ffffff-no-rj" alt="" />
+                </a>
+              </div>
+              <div class="title">
+                <a target="_blank" href="https://www.youtube.com/watch?v=fkIvmfqX-t0">
+                  <h3>
+                    Harvard Professor Explains Algorithms in 5 Levels of Difficulty | WIRED
+                  </h3>
+                 </a>
+                <a href="">
+                  WIRED &check;
+                </a>
+                <span> 2.9M Views &bull; 10 months ago </span>
+              </div>
+            </div>
+
+          </div>
+        <!--a videos ends-->
+          <!--a video starts-->
+          <div class="video">
+            <div class="thumbnail">
+              <a target="_blank" href="https://www.youtube.com/watch?v=wwSzpaTHyS8">
+                <img src="https://i.ytimg.com/vi/wwSzpaTHyS8/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBZgnGIB_tmrV5GX0K2TKdsr0Ma7w" alt="" />
+              </a>
+            </div>
+
+            <div class="details">
+              <div class="author">
+                <a target="_blank" href="https://www.youtube.com/@kurzgesagt">
+                  <img src="https://yt3.ggpht.com/ytc/AIdro_n1Ribd7LwdP_qKtqWL3ZDfIgv9M1d6g78VwpHGXVR2Ir4=s68-c-k-c0x00ffffff-no-rj" alt="" />
+                </a>
+              </div>
+              <div class="title">
+                <a target="_blank" href="https://www.youtube.com/watch?v=wwSzpaTHyS8">
+                  <h3>
+                    Did The Future Already Happen? &hyphen; The Paradox of Time
+                  </h3>
+                </a>
+                <a href="">
+                  Kurzgesagt &hyphen; In a Nutshell &check;
+                </a>
+                <span> 9.9M Views &bull; 7 months ago </span>
+              </div>
+            </div>
+
+          </div>
+        <!--a videos ends-->
+          <!--a video starts-->
+          <div class="video">
+            <div class="thumbnail">
+              <a target="_blank" href="https://www.youtube.com/watch?v=QZwneRb-zqA">
+                <img src="https://i.ytimg.com/vi/QZwneRb-zqA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDAsBuNYix0EphB89zXSXL5XUL0Vw" alt="" />
+              </a>
+            </div>
+
+            <div class="details">
+              <div class="author">
+                <a target="_blank" href="https://www.youtube.com/@SebastianLague">
+                  <img src="https://yt3.ggpht.com/ytc/AIdro_knyJw3jL_6AGomJmGe3VvfIYxWzZC9Y8z90Liru4G0UHM=s68-c-k-c0x00ffffff-no-rj" alt="" />
+                </a>
+              </div>
+              <div class="title">
+                <a target="_blank" href="https://www.youtube.com/watch?v=QZwneRb-zqA">
+                  <h3>
+                    Exploring How Computers Work
+                  </h3>
+                </a>
+                <a href="">
+                  Sebastian Lague &check;
+                </a>
+                <span> 3.5M Views &bull; 3 years ago </span>
+              </div>
+            </div>
+
+          </div>
+        <!--a videos ends-->
+          <!--a video starts-->
+          <div class="video">
+            <div class="thumbnail">
+              <a target="_blank" href="https://www.youtube.com/watch?v=DxL2HoqLbyA”">
+                <img src="https://i.ytimg.com/vi/DxL2HoqLbyA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBpoQFb9sz4tbKyGvSzZTu6va_gSw" alt="" />
+              </a>
+            </div>
+
+            <div class="details">
+              <div class="author">
+                <a target="_blank" href="https://www.youtube.com/@veritasium">
+                  <img src="https://yt3.ggpht.com/ytc/AIdro_nSatGjGLZG1_O1ztYxuKvRazCbk9A0kPhtt2NxEH4ZKfA=s68-c-k-c0x00ffffff-no-rj" alt="" />
+                </a>
+              </div>
+              <div class="title">
+                <a target="_blank" href="https://www.youtube.com/watch?v=DxL2HoqLbyA”">
+                  <h3>
+                    The Most Misunderstood Concept in Physics
+                  </h3>
+                </a>
+                <a href="">
+                  Veritasium &check;
+                </a>
+                <span> 15M Views &bull; 1 year ago </span>
+              </div>
+            </div>
+
+          </div>
+        <!--a videos ends-->
+          <!--a video starts-->
+          <div class="video">
+            <div class="thumbnail">
+              <a target="_blank" href="https://www.youtube.com/watch?v=ONVpFtiD-fo">
+                <img src="https://i.ytimg.com/vi/ONVpFtiD-fo/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCYfz-RQtNwwSJJSX_f-vMpbjss-g" alt="" />
+              </a>
+            </div>
+
+            <div class="details">
+              <div class="author">
+                <a target="_blank" href="https://www.youtube.com/@domainofscience">
+                  <img src="https://yt3.ggpht.com/cNEy6sWctOxzoQcc5DiNOQQMq4Qc7m8JaO-CVhqKsuVFEGRrh7QBsOmijWNHP9_LYPpoyhyLFyU=s68-c-k-c0x00ffffff-no-rj" alt="" />
+                </a>
+              </div>
+              <div class="title">
+                <a target="_blank" href="https://www.youtube.com/watch?v=ONVpFtiD-fo">
+                  <h3>
+                    The Surprising Map of Plants
+                  </h3>
+                </a>
+                <a href="">
+                  Domain of Science &check;
+                </a>
+                <span> 1.1M Views &bull; 8 months ago </span>
+              </div>
+            </div>
+
+          </div>
+        <!--a videos ends-->
+          <!--a video starts-->
+          <div class="video">
+            <div class="thumbnail">
+              <a target="_blank" href="https://www.youtube.com/watch?v=N3tRFayqVtk">
+                <img src="https://i.ytimg.com/vi/N3tRFayqVtk/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAbiRVooaR0wCmb3UAIWWnf9RwzZQ" alt="" />
+              </a>
+            </div>
+
+            <div class="details">
+              <div class="author">
+                <a target="_blank" href="https://www.youtube.com/@davidrandallmiller">
+                  <img src="https://yt3.ggpht.com/ytc/AIdro_lg34qGUgo1iYprk0qy74k3QglyAFhSZcgVNWd_uCA=s68-c-k-c0x00ffffff-no-rj" alt="" />
+                </a>
+              </div>
+              <div class="title">
+                <a target="_blank" href="https://www.youtube.com/watch?v=N3tRFayqVtk">
+                  <h3>
+                    I programmed some creatures. They Evolved.
+                  </h3>
+                </a>
+                <a href="">
+                  davidrandalmiller
+                </a>
+                <span> 4.2M Views &bull; 3 years ago </span>
+              </div>
+            </div>
+
+          </div>
+        <!--a videos ends-->
+          <!--a video starts-->
+          <div class="video">
+            <div class="thumbnail">
+              <a target="_blank" href="https://www.youtube.com/watch?v=S7TUe5w6RHo">
+                <img src="https://i.ytimg.com/vi/S7TUe5w6RHo/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA8R8Jim6gV-d10ZutuFi7iKrXUrg" alt="" />
+              </a>
+            </div>
+
+            <div class="details">
+              <div class="author">
+                <a target="_blank" href="https://www.youtube.com/@kurzgesagt">
+                  <img src="https://yt3.ggpht.com/ytc/AIdro_n1Ribd7LwdP_qKtqWL3ZDfIgv9M1d6g78VwpHGXVR2Ir4=s68-c-k-c0x00ffffff-no-rj" alt="" />
+                </a>
+              </div>
+              <div class="title">
+                <a target="_blank" href="https://www.youtube.com/watch?v=S7TUe5w6RHo">
+                  <h3>
+                    4.5 Billion Years in 1 Hour
+                  </h3>
+                </a>
+                <a href="">
+                  Kurzgesagt &hyphen; In a Nutshell &check;
+                </a>
+                <span> 12M Views &bull; 10 months ago </span>
+              </div>
+            </div>
+
+          </div>
+        <!--a videos ends-->
+        </div>
+
+    </main>
+    <!--main body ends-->
+  </body>
+
+</html>
